@@ -1,5 +1,6 @@
 # SoftwareDeAsistencias
 -----------------------------------------MANUAL DE USUARIO----------------------------------------
+
 1º PASO: Instalar Laragon Full. LINK(https://laragon.org/download/index.html) 
 
 2º PASO: Clonar y descargar el repositorio de GitHub (https://github.com/GonzaloAizaga/SoftwareDeAsistencias)
