@@ -1,0 +1,33 @@
+Software de Asistencia 
+Usar:
+	php:
+	Objetos(
+		herencia
+		trait
+		encapsulamiento
+		estatico
+	)
+	HTML( 
+		Boostrap
+		JavaScript
+	)
+	Base de datos:(
+		mariadb
+	)
+
+Tablas
+	alumnos: ida,dni,nombre,apellido,fechaNacimiento
+	asistencias: cod_asis, dni, asistencias
+	profesores: idp,dni,nombre,apellido, fechaNacimientoProf
+	parametros: dias_clases (cantidad de dias de clase) , paramProm, paramReg, array con los porcentajes (Promocion,regular)
+	
+Hacer
+	-ABM de alumnos y profesores (Nombre,apellido,dni,fecha nacimiento)
+	-Interfaz grafica
+	-Cargar asistencia
+	-Porcentaje de asistencias
+	-Promociona si o no. Mostrar en la lista
+	-Validacion(Si hay duplicado avisar)
+	-Listado alfabeticamente por apellido
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Inicio de la barra superior -->
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
+                  <a class="nav-link" href="Alumnos.php">Alumnos</a>
+                  <a class="nav-link" href="Profesores.php">Profesores</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <a class="nav-link justify-content-end" href="Configuracion.html">Configuración <img src="media/gear.svg"></a>
+    </nav>
+    <!--Fin de la barra superior -->
+    <br>
+    <div class="container-fluid">
+        <div class="rounded">
+            <div class="d-flex justify-content-center">
+                <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">
+                    <form action="Parametros.php" method="post"> 
+                        <label for="numClases">Ingrese el total de dias de clases:</label>
+                        <input type="number" name="numClases" required>
+                    
+                        <br>    
+                        <br>    
+                
+                        <label for="porcProm">Ingrese el porcentaje para promocionar:</label>
+                        <input type="number" name="porcProm" required>
+                
+                        <br>
+                        <br>
+                
+                        <label for="porcReg">Ingrese el porcentaje para regularizar:</label>
+                        <input type="number" name="porcReg" required>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <input class="btn btn-primary" type="submit" value="Cargar">        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/bootstrap.min.js"></script>
+</html>
