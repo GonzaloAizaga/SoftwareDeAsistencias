@@ -1,11 +1,7 @@
-DEPLOY.txt:
-En este desarrollamos una mini explicacion de como instalar el sistema, paso a paso.
-Link de GitHub. 
-Clorar la URL.
 -----------------------------------------MANUAL DE USUARIO----------------------------------------
 1º PASO: Instalar Laragon Full. LINK(https://laragon.org/download/index.html) 
 
-2º PASO: Clonar y descargar el repositorio de GitHub (https://github.com/GonzaloAizaga/p2aizagaGonzalo/tree/main/Software%20de%20Asistencia)
+2º PASO: Clonar y descargar el repositorio de GitHub (https://github.com/GonzaloAizaga/SoftwareDeAsistencias)
 
 3º PASO: Iniciar el Host Local de Laragon. 
 
